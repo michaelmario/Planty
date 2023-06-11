@@ -7,15 +7,21 @@ function theme_enqueue_styles()
     wp_enqueue_style('theme-style', get_stylesheet_directory_uri() . '/css/theme.css', array(), filemtime(get_stylesheet_directory() . '/css/theme.css'));
 }
 
+function theme_enqueue_scripts(){
+    wp_enqueue_script( 'myscript', get_stylesheet_directory_uri() . '/js/app.js');
+}
+add_action( 'wp_enqueue_scripts', 'theme_enqueue_scripts' );
+
 function modifier_menu_admin( $items, $args ) {
    
-    // is_user_logged_in ? is_super_admin ? current_user_can ?
+    //Retourne si l'utilisateur actuel a la capacité spécifiée.
+    // un utilisateur est-il connecté ? Est-il super administrateur ? l'utilisateur actuel peut-il ?
     if(current_user_can('manage_options') && $args->theme_location == 'main_menu'){
 
-        // Création du code + stocké dans variable 
-        $admin_item = '<li id="menu-admin" class=""><a href="http://localhost/siteformation/wp-admin/" class="menu-link"><span class="text-wrap">Admin</span></a></li>';
+        // Création du code Html pour le stocké dans le variable 
+        $admin_item = '<li id="menu-admin" class=""><a href="http://planty.local/wp-admin/" class="menu-link"><span class="text-wrap">Admin</span></a></li>';
 
-        // preg_split() divise $items en un tableau
+        // preg_split() divise (wp_nav_menu_items) en un tableau
         $menu_items = preg_split('/<\/li>/', $items);
 
         // array_splice() insère $admin_item à la deuxième position dans le tableau 
