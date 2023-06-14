@@ -139,6 +139,13 @@ form textarea {
       margin-top:85px !important;
       width:70px !important;
    }
+   .elementor-1289 .elementor-element.elementor-element-1b874ba {
+      text-align: center;
+      --container-widget-width: 375px;
+      --container-widget-flex-grow: 0;
+      width: 375px;
+      max-width: 375px;
+  }
 }
 @media(width:320px){
    #TeamPresantation{
@@ -150,9 +157,9 @@ form textarea {
       width: 47% !important;
       max-width:50% !important;
   }
-   #nousRencontrer {
+  /* #nousRencontrer {
     margin-left:20px;
-  }
+  }*/
   #FirstSectionRencontre{
   left:0px !important;
   }
@@ -164,10 +171,17 @@ form textarea {
    margin-top:20px !important;
    width:82px;
 }
-  .befortFooter {
+  /*.befortFooter {
      margin-left: 20px;
     
-  }
+  }*/
+ .elementor-1289 .elementor-element.elementor-element-1b874ba {
+    text-align: center;
+    --container-widget-width: 320px !important;
+    --container-widget-flex-grow: 0;
+    width: 320px !important;
+    max-width: 320px !important;
+}
 }
 
 .wpcf7-submit
@@ -460,7 +474,7 @@ position:absolute;
       flex-direction: column;
    }
    .wpcf7-submit {
-      margin: 40px 25% !important;
+      margin: -31px 19% !important;
    
    }
    .quantityImg{
@@ -639,7 +653,7 @@ position:absolute;
       padding: 14px -3px;
      }
      .wpcf7-submit {
-      margin: 40px 25% !important;
+      margin: 40px 12% !important;
    
    }
    .formContainer {
