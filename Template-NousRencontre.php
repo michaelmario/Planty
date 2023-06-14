@@ -45,9 +45,12 @@ get_header();
                             name="your-email"></span></label></p>
 
             <p class="labelContact1"><label>Message
-                    <span class="wpcf7-form-control-wrap" data-name="textarea-975"><textarea cols="40" rows="10"
+                    <span class="wpcf7-form-control-wrap" data-name="textarea-975">
+                        <textarea cols="40" rows="10" id="ContactTextarea"
                             class="wpcf7-form-control wpcf7-textarea inputContact1" aria-invalid="false"
-                            name="textarea-975"></textarea></span></label></p>
+                            name="textarea-975"></textarea></span></label>
+                        <img src="http://planty.local/wp-content/uploads/2023/05/Group-16.png" id="flowerBehind" alt="flower" />
+                        </p>
 
             <input class="wpcf7-form-control has-spinner wpcf7-submit" type="submit" value="Envoyer"><span
                 class="wpcf7-spinner"></span>
