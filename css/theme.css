@@ -125,6 +125,13 @@ form textarea {
    
    width: 100%;
 }
+.flexContainer {
+   display: flex;
+   margin-top: 0px;
+}
+.firstHalf {  
+   padding: 19px !important;  
+}
 }
 @media(width:425px){
    #LeftFlower{
@@ -146,6 +153,10 @@ form textarea {
       width: 375px;
       max-width: 375px;
   }
+  .elementor-442 .elementor-element.elementor-element-338c8c7 > .elementor-widget-container {
+   margin: 36px 0px 0px 0px !important;
+ 
+}
 }
 @media(width:320px){
    #TeamPresantation{
@@ -157,9 +168,9 @@ form textarea {
       width: 47% !important;
       max-width:50% !important;
   }
-  /* #nousRencontrer {
-    margin-left:20px;
-  }*/
+  .elementor-442 .elementor-element.elementor-element-338c8c7 > .elementor-widget-container {
+   margin: -20px 0px 0px 0px !important;
+   }
   #FirstSectionRencontre{
   left:0px !important;
   }
@@ -282,12 +293,12 @@ position:absolute;
 
 }
 
-.superWrapper {
+.MainWrapper {
    width: 100%;
    display: flex;
    flex-direction: row;
    margin-bottom: 20px;
-   display:none;
+  
 }
 
 .wrapper {
@@ -682,7 +693,7 @@ position:absolute;
    #site-logo {
       margin-left: 20px;
    }
-   .quantityImg{
+   .quantityImgCommande{
       display:block !important;
    }
    .quantity{
@@ -725,6 +736,17 @@ position:absolute;
    }
    
 
+}
+@media(min-width:1440px){
+   #Commander{
+      padding-bottom:80px;
+   }
+   .superWrapper{
+      display:none;
+   }
+   .wpcf7-submit{
+      margin: -31px 41% !important; 
+   }
 }
 
 .formContainer{
@@ -933,6 +955,7 @@ form input[type=color] {
    .wpcf7-form-control-wrap> input{
      width:100% !important;
    }
+   
 }
 /*
 *Page Commander
@@ -961,21 +984,10 @@ form input[type=color] {
    flex-direction: row;
 }
 
-/*.TitleCommander{
-   text-align: center;
-   
-}
-.TitleCommander >h1{
-   font-family:Syne;
-   font-weight:800;
-   font-size:38px;
-   line-height:45.6px;
-   color:#fff;
-   padding-top: 50px;
-}*/
 .quantityImg{
- display:none;
+ display:block;
 }
+
 .formContainer{
  width:70%;
  height:auto;

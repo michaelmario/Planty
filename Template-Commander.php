@@ -32,7 +32,7 @@ get_header();
                     </span>
                     <img decoding="async"
                         src="http://planty.local/wp-content/uploads/2023/05/jeremy-bezanger-0QgbyZdhX7k-unsplash-1.png"
-                        alt="Fraise" class="quantityImg">
+                        alt="Fraise" class="quantityImgCommande">
                     <h2 class="fraiseTitle">FRAISE</h2>
                     <div class="quantityp">
                         <p class="fraisenumber " id="outputNumber"></p>
@@ -50,7 +50,7 @@ get_header();
                 </div>
                 <div class="wrapper">
                     <img src="http://planty.local/wp-content/uploads/2023/05/estudio-bloom-tOitjphtIXU-unsplash-1.png"
-                        class="quantityImg" alt="Pamplemousse">
+                        class="quantityImgCommande" alt="Pamplemousse">
                     <h2 class="pamplemousseTitle">PAMPLE
                         <br>MOUSSE
                     </h2>
@@ -79,7 +79,7 @@ get_header();
                     </span>
                     <img decoding="async"
                         src="http://planty.local/wp-content/uploads/2023/05/rodion-kutsaev-4k8xEFW4_3Q-unsplash-1.png"
-                        class="quantityImg" alt="frambroise">
+                        class="quantityImgCommande" alt="frambroise">
                     <h2 class="frambroiseTitle">FRAM
                         <br>BOISE
                     </h2>
@@ -104,7 +104,7 @@ get_header();
                     </span>
                     <img decoding="async"
                         src="http://planty.local/wp-content/uploads/2023/05/estudio-bloom-ezqnxsqUZ80-unsplash-1.png"
-                        class="quantityImg" alt="Citron">
+                        class="quantityImgCommande" alt="Citron">
                     <h2 class="citronTitle">CITRON</h2>
                     <div class="quantityp">
                         <p class="fraisenumber" id="citronNumber"></p>
