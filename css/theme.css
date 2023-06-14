@@ -89,7 +89,17 @@ form textarea {
    left:-71px;
    z-index:5;
 }
+
+   #LeftFlower{
+      left:333px ;
+      margin-top:53px;
+      width:99px;
+   }
+
 @media(max-width:768px){
+   #site-logo {
+      margin-left: 20px;
+  }
    #TeamPresantation{
       margin-left:-20px !important;
       margin-right:-20px !important;
@@ -106,10 +116,29 @@ form textarea {
     padding:0px;
   
 }
+#LeftFlower{
+   left:140px;
+   margin-top:61px;
+   width:99px;
+}
 .befortFooter {
    
    width: 100%;
 }
+}
+@media(width:425px){
+   #LeftFlower{
+      left:33px !important;
+      margin-top:53px !important;
+      width:99px;
+   }
+}
+@media(width:375px){
+   #LeftFlower{
+      left:33px !important;
+      margin-top:85px !important;
+      width:70px !important;
+   }
 }
 @media(width:320px){
    #TeamPresantation{
@@ -122,7 +151,7 @@ form textarea {
       max-width:50% !important;
   }
    #nousRencontrer {
-      margin-left: 20px;
+    margin-left:20px;
   }
   #FirstSectionRencontre{
   left:0px !important;
@@ -130,6 +159,11 @@ form textarea {
   #SecondSectionRencontre{
   left:0px !important;
   }
+  #LeftFlower{
+   left:218px !important;
+   margin-top:20px !important;
+   width:82px;
+}
   .befortFooter {
      margin-left: 20px;
     
@@ -142,7 +176,7 @@ form textarea {
    height:55px;
    background-color: #E0B9B4 !important;
    text-align: center;
-   margin: 45px 41% !important;
+   margin:-31px 30% !important;
   
 
 }
@@ -205,6 +239,13 @@ position:absolute;
    padding:0px !important;  
    text-align: center !important;
 }
+@media(width:1024px){
+   #LeftFlower{
+      left:218px;
+      margin-top:22px ;
+      width:126px;
+   }
+}
 
 @media(width:1280px) {
    .elementor-10 .elementor-element.elementor-element-3f794f1 img {
@@ -215,8 +256,15 @@ position:absolute;
    .Btn-menu{
      margin-right:75px !important; 
    }
+
+   /*Nous rencontre*/
    
-     
+      #LeftFlower{
+         left:33px !important;
+         margin-top:53px !important;
+         width:99px;
+      }
+       
 
 }
 
