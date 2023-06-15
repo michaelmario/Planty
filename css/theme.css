@@ -607,7 +607,14 @@ position:absolute;
          --container-widget-width: 320px !important;
       }
    }
-  
+  @media(width:1280px){
+ .superWrapper{
+   display:none;
+ }
+ #Commander{
+   height:751px !important;
+ }
+  }
 @media(width:1024px) {
    #site-navigation-wrap {
       right: -1px !important;
