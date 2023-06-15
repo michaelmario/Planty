@@ -541,24 +541,27 @@ position:absolute;
       width: 59% !important;
    }
    .AccueilTitlefraise{
-      top:8%;
-      left:14%;           
+      top:12%;
+      left:6%;
+      font-size:19px;           
    }
    .AccueilTitleFB{
-       top:30%;
-      left:20%;
+       top:54%;
+      left:9%;
+      font-size: 19px;
       
    
    }
    .AccueilTitlePM{
-       top:54%;
-      left:17%;
-      font-size: 30px;
+       top:11%;
+      left:51%;
+      font-size: 19px;
       
    }
    .AccueilTitleCI{              
-      top:82%;
-      left:12%;
+      top:54%;
+      left:52%;
+      font-size:19px;
       
    }
    
@@ -604,83 +607,7 @@ position:absolute;
          --container-widget-width: 320px !important;
       }
    }
-   @media(width:320px) {
-
-      .elementor-12 .elementor-element.elementor-element-fe1a50c .elementor-heading-title {
-         font-size: 23px !important;
-     }
-     .elementor-10 .elementor-element.elementor-element-e533330 .elementor-heading-title {
-       font-size: 20px !important;
-  }
-  .elementor-442 .elementor-element.elementor-element-93daf2e > .elementor-container {
-    margin-left: 15px;
-}
-.quantityImg{
-   display:block !important;
-}
-.formContainer{
-   width:85% !important;
-   height:auto;
-   margin:0px 8% !important;
-  }
-.quantityp {
-   display: flex;
-   flex-direction: row;
-   display:block;
-}
-.TitleCommander >h1 {  
-   font-size:28px !important;  
-}
-      .AccueilTitlefraise{
-            top:5%;
-            left:5%;
-
-         }
-         .AccueilTitleFB{
-             top:29%;
-            left:10%;
-            
-         
-         }
-         .AccueilTitlePM{
-             top:54%;
-            left:3%;
-            font-size: 30px;
-            
-         }
-         .AccueilTitleCI{              
-            top:82%;
-            left:0%;
-            
-         }
-         
-      
-    
-      .firstHalf>h3 {
-         font-size:22px !important;
-         
-     }
-     .flexContainer >input[type=button]{
-      padding: 14px -3px;
-     }
-     .wpcf7-submit {
-      margin: 40px 12% !important;
-   
-   }
-   .formContainer {
-      width: 81%;
-      height: auto;
-      margin: 50px 9%;
-  }
-  .elementor-1289
-   .elementor-element.elementor-element-a8e6cd8 
-   .elementor-heading-title {
-    font-size: 20px !important;
-}
-      
-   }
-
-
+  
 @media(width:1024px) {
    #site-navigation-wrap {
       right: -1px !important;
@@ -728,13 +655,15 @@ position:absolute;
    }
    
    .citronTitle {
-      top: 25% !important;
-      left: 73% !important;
+      top: 24% !important;
+      left: 71% !important;
       font-size:17px;
       display:inline !important;
       
    }
-   
+   .wpcf7-submit {
+      margin: 48px 38% !important;
+  }
 
 }
 @media(min-width:1440px){
@@ -1011,3 +940,81 @@ form input[type=color] {
  text-transform: capitalize;
  display:none;
 }
+@media(width:320px) {
+
+   .elementor-12 .elementor-element.elementor-element-fe1a50c .elementor-heading-title {
+      font-size: 23px !important;
+  }
+  .elementor-10 .elementor-element.elementor-element-e533330 .elementor-heading-title {
+    font-size: 20px !important;
+}
+.elementor-442 .elementor-element.elementor-element-93daf2e > .elementor-container {
+ margin-left: 15px;
+}
+.quantityImg{
+display:block !important;
+}
+.formContainer{
+width:85% !important;
+height:auto;
+margin:0px 8% !important;
+}
+.quantityp {
+display: flex !important;
+flex-direction: row;
+display:block;
+}
+.TitleCommander >h1 {  
+font-size:28px !important;  
+}
+   .AccueilTitlefraise{
+         top:14%;
+         left:1%;
+
+      }
+      .AccueilTitleFB{
+          top:51%;
+         left:4%;
+         
+      
+      }
+      .AccueilTitlePM{
+          top:15%;
+         left:51%;
+         font-size:15px;
+         
+      }
+      .AccueilTitleCI{              
+         top:57%;
+         left:53%;
+         font-size:16px;
+        
+         
+      }
+      
+   
+ 
+   .firstHalf>h3 {
+      font-size:22px !important;
+      
+  }
+  .flexContainer >input[type=button]{
+   padding: 14px -3px;
+  }
+  .wpcf7-submit {
+   margin: 40px 12% !important;
+
+}
+.formContainer {
+   width: 81%;
+   height: auto;
+   margin: 50px 9%;
+}
+.elementor-1289
+.elementor-element.elementor-element-a8e6cd8 
+.elementor-heading-title {
+ font-size: 20px !important;
+}
+   
+}
+
